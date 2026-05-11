@@ -1,11 +1,17 @@
-import React from 'react'
+import Card from "./components/Card";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello, React!</h1>
-    </div>
-  )
-}
+    <div className="parent">
+     <Card/>
+     <Card name="Ayan Shrama"/>
+     <Card name="Urvil Patel"/>
+     <Card name="Dewald Brevis"/>
+     <Card name="Payel Sharma"/>
+     <Card/>
 
-export default App
+    </div>
+  );
+};
+
+export default App;

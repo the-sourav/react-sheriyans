@@ -6,8 +6,39 @@
 
 body {
   min-height: 100vh;
-  background: #000;
   color: #fff;
-  font-family: Arial, sans-serif;
+  background-color: #000000;
   line-height: 1.5;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.parent{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 44px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.card {
+  background-color: #333;
+  width: 400px;
+  height: 200px;
+  color: #fff;
+  padding: 1rem;
+  border: 1px solid #d9d5d563;
+  border-radius: 8px;
+  text-align: center;
+
+}
+
+
+.card button{
+  background-color: #4e9c34;
+  color: #ffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 25px 0px;
 }
